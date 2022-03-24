@@ -7,7 +7,7 @@ body {
     justify-content: space-between;
 }
 
-.header, .main , .footer{
+.header, .footer{
     background-color: #1F2937;
     color: white;
 }
