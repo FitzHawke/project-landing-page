@@ -1,41 +1,78 @@
 body {
-  min-height: 100vh;
   padding: 0;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.header,
+.top,
 .footer {
   background-color: #1f2937;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav .logo {
+  margin: 16px;
+  font-size: 24px;
   color: #f9faf8;
 }
 
-.logo {
-  margin: 16px;
-}
-
-.navbar {
+.nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navbar ul {
+.nav ul {
   list-style: none;
   display: flex;
 }
 
 .link {
-  margin: 16px;
+  margin-left: 24px;
 }
 
-.main {
+.link a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.header .container {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.header .tagline {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0;
+  color: #f9faf8;
+}
+
+.header .subtext {
+  color: #e5e7eb;
+}
+
+.picture {
+  background-color: gray;
+  padding: 120px 300px;
+  margin: 32px;
+  text-align: center;
+}
+
+.signup {
+  background-color: #3882f6;
+  padding: 8px 32px;
+  color: white;
+  border-radius: 8px;
+  border-style: none;
+}
+/* 
 .randomtitle {
   font-size: 36px;
   font-weight: bolder;
@@ -45,28 +82,47 @@ body {
 }
 
 .illustration {
-    height: 128px;
-    width: 128px;
-    border-color:#1f2937;
-    border-style: double;
+  height: 128px;
+  width: 128px;
+  border-color: #1f2937;
+  border-style: double;
 }
 
 .info {
-    width: 128px;
+  width: 128px;
 }
 
 .info .subtext {
-    text-align: center;
+  text-align: center;
 }
 
 .moreinfo {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
 }
 
 .quote {
   background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px 0;
+}
+
+.quotation {
+  font-style: italic;
+}
+
+.quotation,
+.attribution {
+  width: 400px;
+  margin: auto;
+}
+
+.attribution {
+  text-align: end;
+  font-weight: bolder;
 }
 
 .tagline {
@@ -96,6 +152,7 @@ body {
 }
 
 .footer {
-    text-align: center;
-    padding: 16px;
+  text-align: center;
+  padding: 16px;
 }
+ */

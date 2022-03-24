@@ -8,68 +8,74 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="navbar">
-        <div class="logo">HEADER LOGO</div>
-        <ul>
-          <li class="link">header link one</li>
-          <li class="link">header link two</li>
-          <li class="link">header link three</li>
-        </ul>
-      </div>
-      <div class="main">
-        <div>
-          <div class="tagline">This Website is Awesome</div>
-          <div class="subtext">
-            This website has some subtext that goes here under the main title.
-            It is a smaller font with a lower contract color
+    <div class="top">
+      <nav class="nav">
+        <div class="container">
+          <div class="logo">HEADER LOGO</div>
+          <ul>
+            <li class="link"><a href="#">header link one</a></li>
+            <li class="link"><a href="#">header link two</a></li>
+            <li class="link"><a href="#">header link three</a></li>
+          </ul>
+        </div>
+      </nav>
+      <header class="header">
+        <div class="container">
+          <div>
+            <h1 class="tagline">This Website is Awesome</h1>
+            <p class="subtext">
+              This website has some subtext that goes here under the main title.
+              It is a smaller font with a lower contract color
+            </p>
+            <button class="signup">Sign Up</button>
           </div>
-          <button class="signup">Sign Up</button>
+          <div class="picture">
+            <img class="randomimage" src="" alt="some random image" />
+          </div>
         </div>
-        <div class="picture">
-          <img class="randomimage" src="" alt="some random image" />
-        </div>
-      </div>
+      </header>
     </div>
-    <div>
-      <div class="randomtitle">Some Random Information</div>
-      <div class="moreinfo">
+    <div class="moreinfo">
+      <h2 class="random">Some Random Information</h2>
+      <div class="container">
         <div class="info">
           <div class="illustration"></div>
-          <div class="subtext">
+          <p class="subtext">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
         <div class="info">
           <div class="illustration"></div>
-          <div class="subtext">
+          <p class="subtext">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
         <div class="info">
           <div class="illustration"></div>
-          <div class="subtext">
+          <p class="subtext">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
         <div class="info">
           <div class="illustration"></div>
-          <div class="subtext">
+          <p class="subtext">
             this is some subtext under an illustration or image
-          </div>
+          </p>
         </div>
       </div>
     </div>
     <div class="quote">
-      <div class="quotation">
-        This website is the absolute best thing I have ever seen. The creator
-        must be some kind of genius rockstar webdev like the world has never
-        seen before.
+      <div class="container">
+        <div class="quotation">
+          This website is the absolute best thing I have ever seen. The creator
+          must be some kind of genius rockstar webdev like the world has never
+          seen before.
+        </div>
+        <div class="attribution">-The creators mother</div>
       </div>
-      <div class="attribution">-The creators mother</div>
     </div>
     <div class="callaction">
-      <div>
+      <div class="container">
         <div>Call to action! It's time!</div>
         <div>
           Sign up for our product by clicking that button right over there!
@@ -77,6 +83,8 @@
       </div>
       <button class="signup">Sign Up</button>
     </div>
-    <div class="footer">Copyright © The Odin Project 2022 & FitzHawke 2022</div>
+    <footer class="footer">
+      Copyright © The Odin Project 2022 & FitzHawke 2022
+    </footer>
   </body>
 </html>
