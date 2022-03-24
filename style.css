@@ -89,27 +89,30 @@ body {
   margin: 0 auto 64px auto;
 }
 
-.info{
-    width: 128px;
-    text-align: center;
-    font-size: 12px;
+.info {
+  width: 128px;
+  text-align: center;
+  font-size: 12px;
 }
 
 .info .randomimage {
   display: flex;
   height: 128px;
   width: 128px;
-  border-color:#3882f6;
+  border-color: #3882f6;
   border-style: solid;
   border-radius: 8px;
 }
-/* 
+
 .quote {
   background-color: #e5e7eb;
+}
+
+.quote .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 32px 0;
+  padding: 64px;
 }
 
 .quotation {
@@ -126,7 +129,7 @@ body {
   text-align: end;
   font-weight: bolder;
 }
-
+/* 
 .tagline {
   font-size: 48px;
   font-weight: bolder;
