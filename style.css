@@ -129,35 +129,36 @@ body {
   text-align: end;
   font-weight: bolder;
 }
-/* 
-.tagline {
-  font-size: 48px;
-  font-weight: bolder;
+
+.calltoaction {
+  width: 1200px;
+  margin: 64px auto;
+  border-radius: 8px;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 64px;
   color: #f9faf8;
 }
 
-.main div .subtext,
-.link {
-  font-size: 18px;
-  color: #e5e7eb;
+.calltoaction .signup {
+  border-color: #f9faf8;
+  border-style: solid;
 }
 
-.logo {
+.calltoaction h3 {
   font-size: 24px;
-  color: #f9faf8;
+  margin: 0;
 }
 
-.button {
-  background-color: #3882f6;
-  color: #f9faf8;
-}
-
-.callaction {
-  background-color: #3882f6;
+.calltoaction p {
+  font-size: 18px;
+  margin: 0;
 }
 
 .footer {
   text-align: center;
   padding: 16px;
+  color: #f9faf8;
 }
- */
