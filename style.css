@@ -40,6 +40,29 @@ body {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.illustration {
+    height: 128px;
+    width: 128px;
+    border-color:#1f2937;
+    border-style: double;
+}
+
+.info {
+    width: 128px;
+}
+
+.info .subtext {
+    text-align: center;
+}
+
+.moreinfo {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
 .quote {
@@ -70,4 +93,9 @@ body {
 
 .callaction {
   background-color: #3882f6;
+}
+
+.footer {
+    text-align: center;
+    padding: 16px;
 }
