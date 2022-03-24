@@ -61,7 +61,7 @@ body {
 .picture {
   background-color: gray;
   padding: 120px 300px;
-  margin: 32px;
+  margin: 32px 0 32px 32px;
   text-align: center;
 }
 
@@ -72,36 +72,38 @@ body {
   border-radius: 8px;
   border-style: none;
 }
-/* 
-.randomtitle {
+
+.moreinfo .random {
   font-size: 36px;
   font-weight: bolder;
   color: #1f2937;
   text-align: center;
-  margin-bottom: 32px;
+  margin: 32px auto;
+  max-width: 1200px;
 }
 
-.illustration {
-  height: 128px;
-  width: 128px;
-  border-color: #1f2937;
-  border-style: double;
-}
-
-.info {
-  width: 128px;
-}
-
-.info .subtext {
-  text-align: center;
-}
-
-.moreinfo {
+.moreinfo .container {
   display: flex;
   justify-content: center;
   gap: 32px;
+  margin: 0 auto 64px auto;
 }
 
+.info{
+    width: 128px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.info .randomimage {
+  display: flex;
+  height: 128px;
+  width: 128px;
+  border-color:#3882f6;
+  border-style: solid;
+  border-radius: 8px;
+}
+/* 
 .quote {
   background-color: #e5e7eb;
   display: flex;
